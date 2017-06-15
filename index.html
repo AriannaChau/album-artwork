@@ -18,61 +18,64 @@
       <form class="input-form">
         <div class="form-label">
           <label for="artist">Name of Artist/Band: </label>
-          <input id="artist" type="text" name="artist">
+          <input id="artist" type="text" name="artist" required>
         </div>
         <div class="form-label">
           <label for="album">Title: </label>
-          <input id="album" type="text" name="album">
+          <input id="album" type="text" name="album" required>
         </div>
         <div class="form-label">
           <label for="year">Year Released:</label>
-          <input id="year" type="number" name="year" value="">
+          <input id="year" type="number" name="year" value="" required>
         </div>
         <div class="form-label">
           <label for="artwork">Album Art (url only): </label>
-          <input id="artwork" type="text" name="artwork" value="">
+          <input id="artwork" type="url" name="artwork" value="" required>
         </div>
         <div class="form-label">
           <button type="submit" onClick="onClick()" name="button">SUBMIT!!!!</button>
         </div>
+        <div id="error">
+          <h1>YOU ALREADY ENTERED THAT ARTWORK, YOU DUMMY!</h1>
+        </div>
       </form>
-      <div id="gallery">
-        <div id="image1">
+      <div id="gallery" data-pointer-events="true" data-origin-x="0" data-origin-y="0" data-scalar-y="150.0" data-scalar-x="105.0" data-friction-x="0.05" data-friction-y="0.05" data-depth="1.00">
+        <div class="static6" id="image1">
           <div class="opac">
             <h2>Galantis</h2>
             <h2>You - Single</h2>
             <h3>2014</h3>
           </div>
         </div>
-        <div id="image2">
+        <div class="static6" id="image2">
           <div class="opac">
             <h2>Imagine Dragons</h2>
             <h2>Evolve</h2>
             <h3>2017</h3>
           </div>
         </div>
-        <div id="image3">
+        <div class="static6" id="image3">
           <div class="opac">
             <h2>Taku</h2>
             <h2>Songs to Make Up To</h2>
             <h3>2015</h3>
           </div>
         </div>
-        <div id="image4">
+        <div class="static6" id="image4">
           <div class="opac">
             <h2>Dr. Dre</h2>
             <h2>2001</h2>
             <h3>1999</h3>
           </div>
         </div>
-        <div id="image5">
+        <div class="static6" id="image5">
           <div class="opac">
             <h2>Gorillaz</h2>
             <h2>Humanz</h2>
             <h3>2017</h3>
           </div>
         </div>
-        <div id="image6">
+        <div class="static6" id="image6">
           <div class="opac">
             <h2>Run the Jewels</h2>
             <h2>Meow the Jewels</h2>

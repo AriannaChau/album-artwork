@@ -11,6 +11,9 @@ input {
   font-size: 18px;
   -webkit-appearance: none;
   font-family: $primary-font;
+  border-radius: 5px;
+  border: 3px solid black;
+  background: #bdbdbd;
 }
 
 button {
@@ -21,8 +24,12 @@ button {
   font-size: 30px;
   border-radius:30px;
   font-family: $primary-font;
+  text-shadow: 9px 5px black;
 }
 
 button:hover {
   cursor: pointer;
 }
+
+input:focus {outline:0;}
+button:focus {outline:0;}

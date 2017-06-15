@@ -10,24 +10,41 @@ function Boa(artist, album, year, artwork) {
 var clicks = 0;
 function onClick() {
     clicks += 1;
-    // document.getElementById("add-address").innerHTML = clicks;
 };
+
+var artworkArray = [];
+
+
+
 //---------------FRONTEND---------------//
 $(function(){
+
   $(".input-form").submit(function(event){
     event.preventDefault();
+    $("#error").hide();
+    // $(".static6").hide(); <----hide static 6 artwork
     var inputArtist = $("#artist").val();
     var inputAlbum = $("#album").val();
     var inputYear = $("#year").val();
     var inputArtwork = $("#artwork").val();
-    var newBoa = new Boa(inputArtist, inputAlbum, inputYear, inputArtwork);
 
-    console.log(newBoa);
+    if (artworkArray.includes(inputArtwork) === false) {
+      var newBoa = new Boa(inputArtist, inputAlbum, inputYear, inputArtwork);
 
-    $("#gallery").prepend('<div id="album' + clicks + '"><h2>' + newBoa.artist + '</h2><h2>' + newBoa.album + '</h2><h3>' + newBoa.year + '</h3></div>');
+      console.log(newBoa);
 
-    $("#album" + clicks).css("background-image",'url("' + newBoa.artwork + '")');
+      $("#gallery").prepend('<div id="album' + clicks + '"><div class="opac"><h2>' + newBoa.artist + '</h2><h2>' + newBoa.album + '</h2><h3>' + newBoa.year + '</h3></div></div>');
+
+      $("#album" + clicks).css("background-image",'url("' + newBoa.artwork + '")');
+
+      artworkArray.push(newBoa.artwork);
+    }
+    else {
+      $("#error").show();
+    }
   });
+
+
 });
 
 // <img src="'+ newBoa.artwork + '"/>
