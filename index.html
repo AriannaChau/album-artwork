@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Album Artwork of Greatness</title>
+  </head>
+  <body>
+    <header class="hero-container">
+      <div class="title">Album Artwork of Greatness</div>
+      <div class="slogan">Never stop artworking.</div>
+      <div class="downArrow"></div>
+    </header>
+    <div class="main-container">
+      <form class="input-form">
+        <label for="artist">Name of Artist/Band: </label>
+        <input id="artist" type="text" name="artist">
+        <label for="album">Title: </label>
+        <input id="album" type="text" name="album">
+        <label for="year">Year Released:</label>
+        <input id="year" type="number" name="year" value="">
+        <label for="artwork">Album Art (url only): </label>
+        <input id="artwork" type="text" name="artwork" value="">
+
+        <button type="submit" onClick="onClick()" name="button">SUBMIT!!!!</button>
+      </form>
+      <div id="gallery">
+      </div>
+    </div>
+  </body>
+</html>

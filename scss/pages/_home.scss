@@ -1,0 +1,12 @@
+.hero-container {
+  background-image: $heroImage;
+  @extend %backgroundImageStyles;
+  color: white;
+  font-family: raleway;
+}
+
+#gallery > div {
+  @extend %backgroundImageStyles;
+  flex-basis: 33%;
+  height: 475px;
+}

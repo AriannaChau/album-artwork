@@ -1,0 +1,20 @@
+//variables, mixins, and functions
+@import 'abstracts/variables';
+@import 'abstracts/placeholders';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+
+//global stuff
+@import 'base/base';
+@import 'base/typography';
+
+//wireframing - large stuff
+@import 'layouts/hero';
+@import "layouts/body";
+@import 'layouts/grid';
+
+//wireframing -small stuff
+@import 'components/panels';
+
+//styling
+@import 'pages/home';

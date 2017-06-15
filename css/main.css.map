@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,+BAAuB;EACrB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;;;ACJ9B,oBAAqB;EACnB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;;ACHxB,UAGC;EAFC,WAAW,EAAE,OAAO;EACpB,GAAG,EAAE,mCAAmC;;ACF1C,eAAgB;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;;;ACNrB,eAAgB;EACd,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,cAAc;;;AAGxB,QAAS;EACP,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;;;AAEjB,cAAe;EACb,UAAU,EAAE,GAAG;;;ACZjB,eAAgB;EACd,gBAAgB,ECAN,+BAA+B;EDEzC,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,OAAO;;;AAGtB,cAAe;EAEb,UAAU,EAAE,GAAG;EACf,MAAM,EAAE,KAAK",
+"sources": ["../scss/abstracts/_placeholders.scss","../scss/base/_base.scss","../scss/base/_typography.scss","../scss/layouts/_hero.scss","../scss/layouts/_body.scss","../scss/pages/_home.scss","../scss/abstracts/_variables.scss"],
+"names": [],
+"file": "main.css"
+}
