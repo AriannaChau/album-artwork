@@ -1,14 +1,13 @@
 .main-container {
-  width: 70%;
-  height: 100vh;
+  width: 80%;
+  height: 100%;
   margin: 0 auto;
-  border: 1px solid blue;
+  background-color: white;
+  margin-top: -140px;
 }
 
 #gallery {
   display: flex;
   flex-wrap: wrap;
-}
-#gallery > div {
-  flex-basis: 33%;
+  justify-content: center;
 }

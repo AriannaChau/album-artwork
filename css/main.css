@@ -1,4 +1,4 @@
-.hero-container, #gallery > div {
+#gallery > div, .hero-container {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,40 +14,128 @@
   font-family: raleway;
   src: url("../fonts/Raleway-Regular.ttf");
 }
+@font-face {
+  font-family: raleway-bold;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
 .hero-container {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .main-container {
-  width: 70%;
-  height: 100vh;
+  width: 80%;
+  height: 100%;
   margin: 0 auto;
-  border: 1px solid blue;
+  background-color: white;
+  margin-top: -140px;
 }
 
 #gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #gallery > div {
-  flex-basis: 33%;
+  width: 475px;
+  height: 475px;
+  margin: 40px;
+  transition: opacity 1s;
+}
+
+.input-form {
+  height: 40vh;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  -webkit-appearance: none;
+  font-family: raleway;
+}
+
+button {
+  background-image: url("../images/spinspinspin.gif");
+  height: 168.6px;
+  width: 300px;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+  font-family: raleway;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #bdbdbd;
+  font-family: raleway;
+}
+
+header {
+  font-family: raleway-bold;
+}
+header .title {
+  font-size: 45px;
+  margin-bottom: 10%;
+}
+header .slogan {
+  font-size: 30px;
+  margin-bottom: 5%;
 }
 
 .hero-container {
   background-image: url("../images/headphones.jpg");
   color: white;
-  font-family: raleway;
+  background-position: bottom;
 }
 
-#gallery > div {
-  flex-basis: 33%;
-  height: 475px;
+#gallery > #image1 {
+  background-image: url("../images/galantis.jpg");
+}
+
+#gallery > #image2 {
+  background-image: url("../images/ImagineDragonsEvolve.jpg");
+}
+
+#gallery > #image3 {
+  background-image: url("../images/taku.jpg");
+}
+
+#gallery > #image4 {
+  background-image: url("../images/2001.jpg");
+}
+
+#gallery > #image5 {
+  background-image: url("../images/humanz.jpg");
+}
+
+#gallery > #image6 {
+  background-image: url("../images/MeowTheJewels.jpg");
+}
+
+.opac {
+  padding: 20px;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: opacity 1s;
+}
+
+#gallery > div:hover .opac {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

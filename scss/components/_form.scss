@@ -1,0 +1,28 @@
+.input-form {
+  height: 40vh;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 18px;
+}
+input {
+  font-size: 18px;
+  -webkit-appearance: none;
+  font-family: $primary-font;
+}
+
+button {
+  background-image: url("../images/spinspinspin.gif");
+  height: 168.6px;
+  width: 300px;
+  color: white;
+  font-size: 30px;
+  border-radius:30px;
+  font-family: $primary-font;
+}
+
+button:hover {
+  cursor: pointer;
+}

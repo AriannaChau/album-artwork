@@ -24,7 +24,7 @@ $(function(){
 
     console.log(newBoa);
 
-    $("#gallery").append('<div id="album' + clicks + '"><h2>' + newBoa.artist + '</h2><h2>' + newBoa.album + '</h2><h3>' + newBoa.year + '</h3></div>');
+    $("#gallery").prepend('<div id="album' + clicks + '"><h2>' + newBoa.artist + '</h2><h2>' + newBoa.album + '</h2><h3>' + newBoa.year + '</h3></div>');
 
     $("#album" + clicks).css("background-image",'url("' + newBoa.artwork + '")');
   });

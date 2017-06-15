@@ -1,12 +1,44 @@
+body {
+  background-color: #bdbdbd;
+  font-family: $primary-font;
+
+}
+
+header {
+  font-family: raleway-bold;
+  & .title {
+    font-size: 45px;
+    margin-bottom: 10%;
+  }
+  & .slogan {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+}
+
 .hero-container {
   background-image: $heroImage;
   @extend %backgroundImageStyles;
   color: white;
-  font-family: raleway;
+  background-position: bottom;
 }
 
-#gallery > div {
-  @extend %backgroundImageStyles;
-  flex-basis: 33%;
-  height: 475px;
+@for $i from 1 through 6 {
+  #gallery > #image#{$i} {
+    background-image: nth($galleryImages, $i);
+  }
+}
+
+
+.opac {
+  padding: 20px;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(255,255,255,0.7);
+  transition: opacity 1s;
+}
+
+#gallery > div:hover .opac {
+  opacity: 1;
 }

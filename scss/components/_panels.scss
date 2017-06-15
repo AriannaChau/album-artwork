@@ -1,0 +1,7 @@
+#gallery > div {
+  width: 475px;
+  height: 475px;
+  margin: 40px;
+  @extend %backgroundImageStyles;
+  transition: opacity 1s;
+}
