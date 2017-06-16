@@ -22,7 +22,7 @@ $(function(){
   $(".input-form").submit(function(event){
     event.preventDefault();
     $("#error").hide();
-    // $(".static6").hide(); <----hide static 6 artwork
+    $(".static6").hide();
     var inputArtist = $("#artist").val();
     var inputAlbum = $("#album").val();
     var inputYear = $("#year").val();

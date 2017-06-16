@@ -1,52 +1,44 @@
 #gallery > div, .hero-container {
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
 
 *, *:after, *:before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 @font-face {
   font-family: raleway;
-  src: url("../fonts/Raleway-Regular.ttf");
-}
+  src: url("../fonts/Raleway-Regular.ttf"); }
 @font-face {
   font-family: raleway-bold;
-  src: url("../fonts/Raleway-Bold.ttf");
-}
+  src: url("../fonts/Raleway-Bold.ttf"); }
 .hero-container {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .main-container {
   width: 80%;
   height: 100%;
   margin: 0 auto;
   background-color: white;
-  margin-top: -140px;
-}
+  margin-top: -140px; }
 
 #gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #gallery > div {
   width: 475px;
   height: 475px;
   margin: 40px;
-  transition: opacity 1s;
-}
+  transition: opacity 1s; }
 
 .input-form {
   height: 40vh;
@@ -55,17 +47,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 input {
   font-size: 18px;
   -webkit-appearance: none;
   font-family: raleway;
   border-radius: 5px;
-  border: 3px solid black;
-  background: #bdbdbd;
-}
+  border: 1px solid black;
+  background: #efefef; }
 
 button {
   background-image: url("../images/spinspinspin.gif");
@@ -75,67 +65,52 @@ button {
   font-size: 30px;
   border-radius: 30px;
   font-family: raleway;
-  text-shadow: 9px 5px black;
-}
+  text-shadow: 9px 5px black; }
 
 button:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 input:focus {
-  outline: 0;
-}
+  outline: 0; }
 
 button:focus {
-  outline: 0;
-}
+  outline: 0; }
 
 body {
-  background-color: #bdbdbd;
-  font-family: raleway;
-}
+  background-color: #efefef;
+  font-family: raleway; }
 
 header {
-  font-family: raleway-bold;
-}
-header .title {
-  font-size: 45px;
-  margin-bottom: 10%;
-}
-header .slogan {
-  font-size: 30px;
-  margin-bottom: 5%;
-}
+  font-family: raleway-bold; }
+  header .title {
+    font-size: 45px;
+    margin-bottom: 10%; }
+  header .slogan {
+    font-size: 30px;
+    margin-bottom: 5%; }
 
 .hero-container {
   background-image: url("../images/headphones.jpg");
   color: white;
-  background-position: bottom;
-}
+  background-position: bottom; }
 
 #gallery > #image1 {
-  background-image: url("../images/galantis.jpg");
-}
+  background-image: url("../images/galantis.jpg"); }
 
 #gallery > #image2 {
-  background-image: url("../images/ImagineDragonsEvolve.jpg");
-}
+  background-image: url("../images/etaliae.jpg"); }
 
 #gallery > #image3 {
-  background-image: url("../images/taku.jpg");
-}
+  background-image: url("../images/taku.jpg"); }
 
 #gallery > #image4 {
-  background-image: url("../images/2001.jpg");
-}
+  background-image: url("../images/boniver.jpeg"); }
 
 #gallery > #image5 {
-  background-image: url("../images/humanz.jpg");
-}
+  background-image: url("../images/humanz.jpg"); }
 
 #gallery > #image6 {
-  background-image: url("../images/MeowTheJewels.jpg");
-}
+  background-image: url("../images/vallis.jpg"); }
 
 .opac {
   padding: 20px;
@@ -143,15 +118,12 @@ header .slogan {
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.7);
-  transition: opacity 1s;
-}
+  transition: opacity 1s; }
 
 #gallery > div:hover .opac {
-  opacity: 1;
-}
+  opacity: 1; }
 
 #error {
-  display: none;
-}
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
