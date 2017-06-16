@@ -81,13 +81,12 @@ body {
   font-family: raleway; }
 
 header {
-  font-family: raleway-bold; }
+  font-family: raleway; }
   header .title {
     font-size: 45px;
-    margin-bottom: 10%; }
-  header .slogan {
-    font-size: 30px;
-    margin-bottom: 5%; }
+    margin-bottom: 25%; }
+  header .logo {
+    font-size: 20px; }
 
 .hero-container {
   background-image: url("../images/headphones.jpg");

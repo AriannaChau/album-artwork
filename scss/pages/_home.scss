@@ -5,14 +5,13 @@ body {
 }
 
 header {
-  font-family: raleway-bold;
+  font-family: $primary-font;
   & .title {
     font-size: 45px;
-    margin-bottom: 10%;
+    margin-bottom: 25%;
   }
-  & .slogan {
-    font-size: 30px;
-    margin-bottom: 5%;
+  & .logo {
+    font-size: 20px;
   }
 }
 
