@@ -1,9 +1,7 @@
 # Album Artwork
 
-
-### Arianna Chau
-
 ## Landing Page:
+![](./images/album landing.png)
 
 ### UX/UI
   * Sass
